@@ -1,0 +1,22 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment secrets
+.env
+
+# Chroma vector database cache
+chroma_langchain/
+*.db
+
+# PDF documents & raw data
+*.pdf
+data/*.pdf
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
